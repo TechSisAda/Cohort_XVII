@@ -1,0 +1,4 @@
+adding a none empty readme
+AUTHOR :
+NNONYELU ADAEZE
+TECHSISADA@YAHOO.COM
