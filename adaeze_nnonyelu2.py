@@ -10,8 +10,8 @@ def calculate(first_num, second_num, operator_sign):
     elif operator_sign == '*':
         return first_num * second_num
     elif operator_sign == '/':
-        # if second_num == 0:
-        #     return "Error! Division by zero aint allowed."
+        if second_num == 0:
+            return "Error! Division by zero aint allowed."
         return first_num / second_num
     else:
         return "Error: Unknown Operation."
