@@ -15,3 +15,16 @@
 # random_decimals = random.random()
 # print(random_decimals)
 
+# LIST
+fruits = [ 'apple', 'orange', 'banana']
+nums = [1, 2, 3, 5]
+numero = [2, 4, "guava", "cotton"]
+lists = [fruits, nums, numero]
+print (lists[0][2][3])
+
+print(lists[0][1:3])
+
+num = [1, 2, 3]
+str1 ="12345"
+print(num[1:3])
+print(str1[0:2])
