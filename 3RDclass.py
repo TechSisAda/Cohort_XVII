@@ -28,3 +28,18 @@ num = [1, 2, 3]
 str1 ="12345"
 print(num[1:3])
 print(str1[0:2])
+
+fruits.extend(['grapes', 'sugar'])
+print(lists[0])
+
+empty = []
+empty.append("have")
+empty.append("them")
+print(empty)
+
+for fruit in fruits:
+    if fruit.startswith('b'):
+        empty.append(fruit)
+
+print(empty)
+# print(type(fruit))
