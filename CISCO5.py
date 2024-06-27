@@ -114,6 +114,27 @@
 # answer = number_of_lions >= number_of_lioness
 # print(answer)
 
-n = int(input())
-answer = n > 100
-print (answer)
+# n = int(input())
+# answer = n > 100
+# print (answer)
+
+num_1 = int(input())
+num_2 = int(input())
+num_3 =int(input())
+# # if num_1 > num_2 :
+# Larger_num = num_1
+# if num_2 > Larger_num:
+#     Larger_num = num_2
+
+# if num_3 > Larger_num:
+#     Larger_num = num_3
+# # else:
+# #     Larger_num = num_2
+
+# print("The larger number is: ", Larger_num)
+
+# YOU CAN ALSO USE MAX AND MIN AS BUILT-IN FUNCTION N=BY PYTHON
+larger_num = max(num_1, num_2, num_3)
+smaller_num = min(num_1, num_2, num_3)
+print ("The larger number is: ", larger_num)
+print("The smaller number is: ", smaller_num)
