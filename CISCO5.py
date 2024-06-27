@@ -118,9 +118,9 @@
 # answer = n > 100
 # print (answer)
 
-num_1 = int(input())
-num_2 = int(input())
-num_3 =int(input())
+# num_1 = int(input())
+# num_2 = int(input())
+# num_3 =int(input())
 # # if num_1 > num_2 :
 # Larger_num = num_1
 # if num_2 > Larger_num:
@@ -134,7 +134,17 @@ num_3 =int(input())
 # print("The larger number is: ", Larger_num)
 
 # YOU CAN ALSO USE MAX AND MIN AS BUILT-IN FUNCTION N=BY PYTHON
-larger_num = max(num_1, num_2, num_3)
-smaller_num = min(num_1, num_2, num_3)
-print ("The larger number is: ", larger_num)
-print("The smaller number is: ", smaller_num)
+# larger_num = max(num_1, num_2, num_3)
+# smaller_num = min(num_1, num_2, num_3)
+# print ("The larger number is: ", larger_num)
+# print("The smaller number is: ", smaller_num)
+
+
+# CONDITIONAL EXECUTION 
+
+plant = str(input("What is your best plant? "))
+if plant == "Spathiphyllum":
+    print ("Yes - Spathiphyllum is the best plant ever!")
+elif plant == "spathiphyllum":
+    print("No, I want a big Spathiphyllum!")
+else: print("Spathiphyllum! Not ", plant, "!!")
