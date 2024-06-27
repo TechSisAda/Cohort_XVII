@@ -91,3 +91,29 @@
 # y4 = 1 / (x + 1 / ((x + 1 / (x + 1 / x))))
 # print(y4)
 
+# TO CALCULATE THE TIME AN EVENT STARTS BASED ON THE TIME 
+# IT STARTED AND THE DURATION OF THE EVENT 
+
+# # ENTER THE START HOUR 
+# start_hour = int(input("Enter the start hour: "))
+# start_mins = int(input("Enter the start minutes: "))
+# duration = int(input("Enter the duration of event in minutes: "))
+
+# total_mins = (duration + start_mins) + (start_hour * 60)
+
+# # print (total_mins)
+
+# # NEXT CALCULATE THE END HOURS 
+# end_hour = (total_mins // 60)
+# end_mins = (total_mins % 60)
+# print (f"The event ends by {end_hour} : {end_mins}")
+
+# THE STRICT (>, <) AND NON-STRICT (>=, <=) OPERATORS
+# number_of_lions = 10
+# number_of_lioness = 23
+# answer = number_of_lions >= number_of_lioness
+# print(answer)
+
+n = int(input())
+answer = n > 100
+print (answer)
