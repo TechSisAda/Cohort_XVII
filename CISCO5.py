@@ -158,17 +158,32 @@
 # #     print(f"Spathiphyllum! Not {plant}")
 
 
-# TAX CALCULATION
-income = float(input("Enter your tax: "))
-if income < 85528:
-    tax_relief = (0.18 * income) - 556.02
-else:
-    tax_relief = (income - 85528) * 0.32 + 14839.02
+# # TAX CALCULATION
+# income = float(input("Enter your tax: "))
+# if income < 85528:
+#     tax_relief = (0.18 * income) - 556.02
+# else:
+#     tax_relief = (income - 85528) * 0.32 + 14839.02
 
-if tax_relief < 0:
-    tax_relief = 0
+# if tax_relief < 0:
+#     tax_relief = 0
+
+# tax_relief = round(tax_relief, 2)
+# print("The tax is:", tax_relief, "thalers")
 
 
-# print(income)
-tax_relief = round(tax_relief, 2)
-print("The tax is:", tax_relief, "thalers")
+# CALENDER ASTRONOMY : GREGORIAN CALENDER
+year = int(input("Enter a year: "))
+
+if year < 1582:
+    print("Not within the Gregorian Calender period.")
+else: 
+    if year%4 != 0:
+        print("It is a Common year!")
+    elif year%100 != 0:
+        print("It's a Leap year")
+    elif year%400 != 0:
+        print("It is a Common year")
+    else:
+        print("It is a Leap Year")
+
