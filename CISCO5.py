@@ -142,9 +142,33 @@
 
 # CONDITIONAL EXECUTION 
 
-plant = str(input("What is your best plant? "))
-if plant == "Spathiphyllum":
-    print ("Yes - Spathiphyllum is the best plant ever!")
-elif plant == "spathiphyllum":
-    print("No, I want a big Spathiphyllum!")
-else: print("Spathiphyllum! Not ", plant, "!!")
+# plant = str(input("What is your best plant? "))
+# if plant == "Spathiphyllum":
+#     print ("Yes - Spathiphyllum is the best plant ever!")
+
+# elif plant == "spathiphyllum":
+#     print("No, I want a big Spathiphyllum!")
+
+# elif plant == "pelargonium":
+#     print("Spathiphyllum! Not pelargonium!")
+
+# else: print("Spathiphyllum! Not ", plant, "!!")
+
+# # else:
+# #     print(f"Spathiphyllum! Not {plant}")
+
+
+# TAX CALCULATION
+income = float(input("Enter your tax: "))
+if income < 85528:
+    tax_relief = (0.18 * income) - 556.02
+else:
+    tax_relief = (income - 85528) * 0.32 + 14839.02
+
+if tax_relief < 0:
+    tax_relief = 0
+
+
+# print(income)
+tax_relief = round(tax_relief, 2)
+print("The tax is:", tax_relief, "thalers")
